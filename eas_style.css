@@ -1,2 +1,42 @@
 /*Etch-a-Sketch (Odin Project) */
 /* by Lorenzo Cane */
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:azure;
+}
+
+h1{
+    color:teal;
+    text-align: center;
+}
+
+button{
+    font-size: 1rem;
+    padding: 5px;
+    margin: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+
+}
+
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 960px;
+    width: 960px;
+    border: 3px solid;
+    border-radius: 3px;
+}
+
+.square{
+    box-sizing: border-box;
+}
