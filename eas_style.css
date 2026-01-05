@@ -8,22 +8,34 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:azure;
+    background-color: #F7D197;
 }
 
 h1{
-    color:teal;
+    color: #C90404;
+    font-size: 40px;
+    font-family: "Fontdiner Swanky", serif;
     text-align: center;
 }
 
-button{
+.buttonContainer{
     font-size: 1rem;
-    padding: 5px;
-    margin: 10px;
-    border: 3px solid;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 40px;
+}
 
+button{
+    background-color: beige;
+    color: black;
+    width: 150px;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
 }
 
 .mainContainer{
@@ -31,10 +43,10 @@ button{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 960px;
-    width: 960px;
+    height: 720px;
+    width: 720px;
     border: 3px solid;
-    border-radius: 3px;
+    margin-bottom: 10px;
 }
 
 .square{
